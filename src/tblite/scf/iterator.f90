@@ -154,6 +154,15 @@ subroutine get_electronic_energy(h0, density, energies)
          end do
       end do
    end do
+
+   ! print all elements of the h0 matrix
+   print *, "h0 matrix (inside get_electronic_energy):"
+   do iao = 1, size(h0, 1)
+       do jao = 1, size(h0, 2)
+          print *, "h0(", iao, ",", jao, ") = ", h0(iao, jao)
+       end do
+   end do
+
 end subroutine get_electronic_energy
 
 

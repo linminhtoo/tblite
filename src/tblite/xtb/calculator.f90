@@ -75,7 +75,7 @@ module tblite_xtb_calculator
       !> Maximum number of self-consistent iteractions
       integer :: max_iter = max_iter_default
       !> Store calculated integral intermediates
-      logical :: save_integrals = .false.
+      logical :: save_integrals = .true.
       !> List of additional interaction containers
       type(container_list), allocatable :: interactions
    contains

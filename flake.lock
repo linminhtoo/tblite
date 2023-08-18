@@ -1,0 +1,483 @@
+{
+  "nodes": {
+    "bench": {
+      "inputs": {
+        "nixpkgs": [
+          "talo",
+          "nixpkgs"
+        ],
+        "talo": [
+          "talo"
+        ],
+        "utils": [
+          "talo",
+          "utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1655178559,
+        "narHash": "sha256-KdOT7dxP8XDzv37g7RllKlFISLXQEmrOY7YoJ643B88=",
+        "owner": "talo",
+        "repo": "plb_bench",
+        "rev": "580f90548c9340e84da2eba09554fbda97b79c6b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "plb_bench",
+        "type": "github"
+      }
+    },
+    "bohr": {
+      "inputs": {
+        "nixpkgs": [
+          "talo",
+          "nixpkgs"
+        ],
+        "talo": [
+          "talo"
+        ],
+        "utils": [
+          "talo",
+          "utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1655367586,
+        "narHash": "sha256-mt5WUlLVrFOaPI7g2oPVngj16phejEx3kZjWiOGm/J4=",
+        "owner": "talo",
+        "repo": "bohr",
+        "rev": "cfb0778f3f0a67734c222bbc1b754991ddf289dc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "bohr",
+        "type": "github"
+      }
+    },
+    "data": {
+      "inputs": {
+        "talo": [
+          "talo"
+        ]
+      },
+      "locked": {
+        "lastModified": 1660792540,
+        "narHash": "sha256-NFngt59wKhIdRFYLhP60n9xQ8NaPdU4wGU5/d+38+tw=",
+        "owner": "talo",
+        "repo": "data",
+        "rev": "aa432e01d3ad1e68dc76fb4450e8a8f3915385ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "data",
+        "type": "github"
+      }
+    },
+    "dd": {
+      "inputs": {
+        "nixpkgs": [
+          "talo",
+          "nixpkgs"
+        ],
+        "talo": [
+          "talo"
+        ],
+        "utils": [
+          "talo",
+          "utils"
+        ],
+        "vina_gpu": "vina_gpu"
+      },
+      "locked": {
+        "lastModified": 1660289978,
+        "narHash": "sha256-zbDo5LUb9DN1mwcXEzXfrqq4/JChgx5btApXwiOMkOE=",
+        "owner": "talo",
+        "repo": "dd",
+        "rev": "1b989124eab966508aef8563b96188ffc5428333",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "dd",
+        "type": "github"
+      }
+    },
+    "features": {
+      "inputs": {
+        "talo": [
+          "talo"
+        ]
+      },
+      "locked": {
+        "lastModified": 1660793109,
+        "narHash": "sha256-ExcRcTxUMd7LNqtAldIMwBMtR20lwke8mKS+j4QfSyA=",
+        "owner": "talo",
+        "repo": "plb_features",
+        "rev": "e61f6ecf200e3be6f4d5ed793b0f9770ce3f342f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "plb_features",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1642700792,
+        "narHash": "sha256-XqHrk7hFb+zBvRg6Ghl+AZDq03ov6OshJLiSWOoX5es=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "846b2ae0fc4cc943637d3d1def4454213e203cba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "mach-nix": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": [
+          "talo",
+          "nixpkgs"
+        ],
+        "pypi-deps-db": [
+          "talo",
+          "pypi-deps-db"
+        ]
+      },
+      "locked": {
+        "lastModified": 1660767432,
+        "narHash": "sha256-aFZSd2aAO10IaVLCaff+oXsibm+m2BDlrxapEesW14E=",
+        "owner": "DavHau",
+        "repo": "mach-nix",
+        "rev": "b5614640bc3379408d90db9e375b47345fbc21eb",
+        "type": "github"
+      },
+      "original": {
+        "id": "mach-nix",
+        "type": "indirect"
+      }
+    },
+    "molqfrag": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2",
+        "talo": [
+          "talo"
+        ],
+        "utils": "utils_2"
+      },
+      "locked": {
+        "lastModified": 1660655537,
+        "narHash": "sha256-7k28vzHt5ls417h0BZZLJ63147UH8KG5///SP1dnRkQ=",
+        "owner": "talo",
+        "repo": "molqfrag",
+        "rev": "133d5bafef19f0082e1d97d0f4ac3d89c5fab1cc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "molqfrag",
+        "type": "github"
+      }
+    },
+    "molsaic": {
+      "inputs": {
+        "nixpkgs": [
+          "talo",
+          "nixpkgs"
+        ],
+        "talo": [
+          "talo"
+        ],
+        "utils": [
+          "talo",
+          "utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1655365906,
+        "narHash": "sha256-RDmhJKyhR6EYyaWXXsWq8ZuezJKkiilW7mjIzo5MzHs=",
+        "owner": "talo",
+        "repo": "molsaic",
+        "rev": "a614a04cef91f4fcb9bf2cf9e549d43bbae367c9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "molsaic",
+        "type": "github"
+      }
+    },
+    "nix-std": {
+      "locked": {
+        "lastModified": 1658944356,
+        "narHash": "sha256-+nBrRSPsDIjrmLfLdiB/a22Gj4bhEF53ubWN0z33NJo=",
+        "owner": "chessai",
+        "repo": "nix-std",
+        "rev": "9500903a19ef2720469578de0e10ce9e66623bdf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chessai",
+        "repo": "nix-std",
+        "type": "github"
+      }
+    },
+    "nixgl": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_3"
+      },
+      "locked": {
+        "lastModified": 1657217789,
+        "narHash": "sha256-sTztcN12nONXh88nUhZ+xLl3g6ctbm1X3/GZqn/VuZc=",
+        "owner": "guibou",
+        "repo": "nixGL",
+        "rev": "d4fb83ca17c88444a956f8164cc3fd6cfa8291fe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "guibou",
+        "repo": "nixGL",
+        "rev": "d4fb83ca17c88444a956f8164cc3fd6cfa8291fe",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1658823559,
+        "narHash": "sha256-CS4Zb8/nnKNfHMqtDFkS//jGzT+6CAm2wCIxnOkN+d0=",
+        "owner": "TheAncientGoat",
+        "repo": "nixpkgs",
+        "rev": "64b2432af5268b70054bf500186b9e20ed1ed45d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "TheAncientGoat",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1662208707,
+        "narHash": "sha256-/lu0ju7z4Y0H9zheVDL57GcurgCk3937mcqO/57Uzvo=",
+        "owner": "talo",
+        "repo": "nixpkgs",
+        "rev": "c135c597c56715eed8e2c303de1eee79aea76cdb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1656401090,
+        "narHash": "sha256-bUS2nfQsvTQW2z8SK7oEFSElbmoBahOPtbXPm0AL3I4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "16de63fcc54e88b9a106a603038dd5dd2feb21eb",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_4": {
+      "locked": {
+        "lastModified": 1660117116,
+        "narHash": "sha256-/CcsrvicT1+0n/UmBwmD7jzQWu5ArSUGHVzciaIsGA0=",
+        "owner": "talo",
+        "repo": "nixpkgs",
+        "rev": "f736ca0d8e05325c262aec6fb6b6fb4ef294bd51",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pypi-deps-db": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660768933,
+        "narHash": "sha256-MBXKbRhZZa8lSCu6GDPqOqaxsAXiRLPHWWp7smcKT+8=",
+        "owner": "DavHau",
+        "repo": "pypi-deps-db",
+        "rev": "da263c518b6b0f9c2b363abd805a8d41bca7b280",
+        "type": "github"
+      },
+      "original": {
+        "owner": "DavHau",
+        "repo": "pypi-deps-db",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "talo": "talo"
+      }
+    },
+    "synnet": {
+      "inputs": {
+        "talo": [
+          "talo"
+        ]
+      },
+      "locked": {
+        "lastModified": 1661749951,
+        "narHash": "sha256-C921kPDwQOm22/ktn/sQ/RNiK1YVTQvefNV7yv9/jOM=",
+        "owner": "talo",
+        "repo": "SynNet",
+        "rev": "efeb8bd12caf14c781d4cddfcef1fa3de1c551e6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "SynNet",
+        "type": "github"
+      }
+    },
+    "talo": {
+      "inputs": {
+        "bench": "bench",
+        "bohr": "bohr",
+        "data": "data",
+        "dd": "dd",
+        "features": "features",
+        "mach-nix": "mach-nix",
+        "molqfrag": "molqfrag",
+        "molsaic": "molsaic",
+        "nix-std": "nix-std",
+        "nixgl": "nixgl",
+        "nixpkgs": "nixpkgs_4",
+        "pypi-deps-db": "pypi-deps-db",
+        "synnet": "synnet",
+        "transformercpi": "transformercpi",
+        "utils": "utils_3"
+      },
+      "locked": {
+        "lastModified": 1667812782,
+        "narHash": "sha256-NtwBEX+3h/lhGZOl46aFmmoxaRB03XSMX/G2hYfR5/I=",
+        "owner": "talo",
+        "repo": "talo_flake",
+        "rev": "0a517aa1b6e8b42214f159affed25414b6c54684",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "talo_flake",
+        "type": "github"
+      }
+    },
+    "transformercpi": {
+      "inputs": {
+        "nixpkgs": [
+          "talo",
+          "nixpkgs"
+        ],
+        "talo": [
+          "talo"
+        ],
+        "utils": [
+          "talo",
+          "utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1658122712,
+        "narHash": "sha256-S0p1UDJQnTj/R+EecViRnLSGt3WKQtSxia/+tB051LM=",
+        "owner": "talo",
+        "repo": "transformercpi",
+        "rev": "baa29f1cafeb3b03c82fc0e87489312a82d17bf1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "transformercpi",
+        "rev": "baa29f1cafeb3b03c82fc0e87489312a82d17bf1",
+        "type": "github"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "utils_2": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "utils_3": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "vina_gpu": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "utils": "utils"
+      },
+      "locked": {
+        "lastModified": 1660124503,
+        "narHash": "sha256-53u/dS7IYv97gWkn6aqjMGPYLntmMZhxIxdGncVK2Nw=",
+        "owner": "talo",
+        "repo": "Vina-GPU",
+        "rev": "60e182dc834ff3ebbfbb79482dc649f6e9e46faa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "talo",
+        "repo": "Vina-GPU",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

@@ -1,0 +1,63 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools >= 40.9.0", "wheel"]
+
+[project]
+dependencies = ["  oddt", "  numpydoc", "#   torch", "#   torchdata", "#   torch-cluster", "#   torch-geometric", "#   torch-scatter", "#   torch-sparse", "#   torch-spline-conv"]
+description = "A Talo Python package"
+keywords = []
+name = "YOUR_PACKAGE_NAME"
+readme = "README.md"
+requires-python = ">=3.10"
+version = "0.0.1"
+
+[project.scripts]
+YOUR_PACKAGE_NAME = "YOUR_PACKAGE_NAME.__main__:main"
+
+[project.urls]
+
+[[project.authors]]
+email = "someone@talo.systems"
+name = "Someone"
+
+[tool]
+[tool.black]
+line-length = 110
+
+[tool.isort]
+line_length = 110
+profile = "black"
+
+[tool.pydocstyle]
+ignore = ["D202", "D105"]
+match = "(?!test_).*.py"
+
+[tool.pyright]
+exclude = ["**/node_modules", "**/__pycache__", "**/*venv*", "result", "setup.py"]
+ignore = ["**/node_modules", "**/__pycache__", "**/*venv*", "result", "setup.py"]
+reportIncompatibleMethodOverride = "none"
+reportIncompatibleVariableOverride = "none"
+reportMissingImports = true
+reportMissingTypeStubs = "none"
+reportUnknownMemberType = "none"
+reportUnknownVariableType = "none"
+typeCheckingMode = "strict"
+useLibraryCodeForTypes = true
+
+[[tool.pyright.executionEnvironments]]
+root = "./src"
+
+[[tool.pyright.executionEnvironments]]
+extraPaths = ["./src"]
+root = "tests"
+
+[tool.pytest]
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = ["tests"]
+
+[tool.setuptools]
+[tool.setuptools.packages]
+[tool.setuptools.packages.find]
+exclude = ["test", "tests"]
+where = ["./src"]
