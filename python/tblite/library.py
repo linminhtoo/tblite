@@ -79,7 +79,10 @@ def error_check(func):
 def logger_callback(message, nchar, data):
     """Custom logger callback to write output in a Python friendly way"""
 
-    print(ffi.unpack(message, nchar).decode())
+    try:
+        print(ffi.unpack(message, nchar).decode())
+    except Exception:
+        pass
 
 
 def context_check(func):
